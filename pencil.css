@@ -1,0 +1,51 @@
+*{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#name {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #333;
+}
+
+#title{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Grey Qo", cursive;
+    font-size: 30px;
+    color: #7a4343;
+}
+
+#pencil {
+    position: absolute;
+    height: 30%;
+    top: 30%;
+    left: 45%;
+
+    
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
